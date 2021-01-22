@@ -1,8 +1,8 @@
 # Deliverable 1: Linear Regression to Predict MPG
 library(dbplyr)
 MechaCar_table <- read.csv(file='Resources/MechaCar_mpg.csv',check.names=F,stringsAsFactors = F)
-lm(vehicle_length ~ mpg,MechaCar_table) 
-summary(lm(vehicle_length ~ mpg,MechaCar_table)) 
+lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD, MechaCar_table)
+summary(lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD, MechaCar_table)) 
 
 # Deliverable 2: Create Visualizations for the Trip Analysis
 coil_table <- read.csv(file='Resources/Suspension_Coil.csv',check.names=F,stringsAsFactors = F)
