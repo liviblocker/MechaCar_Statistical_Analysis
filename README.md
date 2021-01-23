@@ -2,7 +2,10 @@
 
 ## Linear Regression to Predict MPG
 Below is the summary of the linear model:
-![summarize_linearmodel.png](https://github.com/liviblocker/MechaCar_Statistical_Analysis/blob/main/images/summarize_linearmodel.png)
+
+<p align="center">
+  <img src="https://github.com/liviblocker/MechaCar_Statistical_Analysis/blob/main/images/summarize_linearmodel.png" width="600" />
+</p>
 
 The vehicle length, ground clearance and intercept have a statistically significant impact on MPG. The fact that the intercept is signficant suggests that there are other variables impacting the MPG that are not included in this model, because there are unknown variables it is impossible to predict the MPG of MechaCar prototypes effectively.
 
@@ -10,26 +13,38 @@ The vehicle length, ground clearance and intercept have a statistically signific
 The variance of the suspension coils cannot exceed 100 pounds per square inch. The manufacturing data for Lot 3 shows that these specifications are exceed by 70 pounds per square inch. Lot 3 does not meet design specifications, however, Lot 1 and Lot2 do not exceed 100 pounds per square inch and do meet the design specificaitons. See below for summaries:
 
 ### Total Summary
-![total_summary.png](https://github.com/liviblocker/MechaCar_Statistical_Analysis/blob/main/images/total_summary.png)
+<p align="center">
+  <img src="https://github.com/liviblocker/MechaCar_Statistical_Analysis/blob/main/images/total_summary.png" width="600" />
+</p>
 
 ### Lot Summary
-![lot_summary.png](https://github.com/liviblocker/MechaCar_Statistical_Analysis/blob/main/images/lot_summary.png)
+<p align="center">
+  <img src="https://github.com/liviblocker/MechaCar_Statistical_Analysis/blob/main/images/lot_summary.png" width="600" />
+</p>
 
 ## T-Tests on Suspension Coils
 Below you will find four one-sample t-Tests conducted to determine whether the difference between the amount of pressure suspension coils in the general population can take and the amount of pressure the MechaCar suspension coils can take is statistically significant. As you can see below, in aggregate, the MechaCar suspension coils are not significantly different from the mean population.
 
-![t-test_total.png](https://github.com/liviblocker/MechaCar_Statistical_Analysis/blob/main/images/t-test_total.png)
+<p align="center">
+  <img src="https://github.com/liviblocker/MechaCar_Statistical_Analysis/blob/main/images/t-test_total.png" width="600" />
+</p>
 
 Broken down, however, the difference between the population PSI mean and PSI mean for suspension coils on Lot 3 is significant. This means that the suspension coils in Lot 3 can handle significantly less pressure than other coils. The difference for suspension coils on Lot 1 and Lot 2 is not significant.
 
 ### Lot 1
-![t-test_Lot1.png](https://github.com/liviblocker/MechaCar_Statistical_Analysis/blob/main/images/t-test_Lot1.png)
+<p align="center">
+  <img src="https://github.com/liviblocker/MechaCar_Statistical_Analysis/blob/main/images/t-test_Lot1.png" width="600" />
+</p>
 
 ### Lot 2
-![t-test_Lot2.png](https://github.com/liviblocker/MechaCar_Statistical_Analysis/blob/main/images/t-test_Lot2.png)
+<p align="center">
+  <img src="https://github.com/liviblocker/MechaCar_Statistical_Analysis/blob/main/images/t-test_Lot2.png" width="600" />
+</p>
 
 ### Lot 3
-![t-test_Lot3.png](https://github.com/liviblocker/MechaCar_Statistical_Analysis/blob/main/images/t-test_Lot3.png)
+<p align="center">
+  <img src="https://github.com/liviblocker/MechaCar_Statistical_Analysis/blob/main/images/t-test_Lot3.png" width="600" />
+</p>
 
 
 ## Study Design: MechaCar vs Competition
