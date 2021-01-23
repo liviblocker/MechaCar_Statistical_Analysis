@@ -22,8 +22,13 @@ Below you will find four one-sample t-Tests conducted to determine whether the d
 
 Broken down, however, the difference between the population PSI mean and PSI mean for suspension coils on Lot 3 is significant. This means that the suspension coils in Lot 3 can handle significantly less pressure than other coils. The difference for suspension coils on Lot 1 and Lot 2 is not significant.
 
+### Lot 1
 ![t-test_Lot1.png](https://github.com/liviblocker/MechaCar_Statistical_Analysis/blob/main/images/t-test_Lot1.png)
+
+### Lot 2
 ![t-test_Lot2.png](https://github.com/liviblocker/MechaCar_Statistical_Analysis/blob/main/images/t-test_Lot2.png)
+
+### Lot 3
 ![t-test_Lot3.png](https://github.com/liviblocker/MechaCar_Statistical_Analysis/blob/main/images/t-test_Lot3.png)
 
 
